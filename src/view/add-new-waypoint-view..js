@@ -166,7 +166,7 @@ const createNewWaypointTemplate = () => `
             </li>`;
 
 
-export default class FilterView {
+export default class NewWaypointView {
   getTemplate() {
     return createNewWaypointTemplate();
   }

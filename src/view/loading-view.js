@@ -1,13 +1,12 @@
 import { createElement } from '../render.js';
 
 
-const createNewWaypointBtnTemplate = () => ` <button class="trip-main__event-add-btn  btn  btn--big  btn--yellow" type="button">New event</button>
-`;
+const createLoadingTemplate = () => '<p class="trip-events__msg">Loading...</p>';
 
 
-export default class NewWaypointButtonView {
+export default class LoadingView {
   getTemplate() {
-    return createNewWaypointBtnTemplate();
+    return createLoadingTemplate();
   }
 
   getElement() {

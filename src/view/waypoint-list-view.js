@@ -5,7 +5,7 @@ const createWaypointListTemplate = () => `<ul class="trip-events__list"></ul>
 `;
 
 
-export default class FilterView {
+export default class WaypointListView {
   getTemplate() {
     return createWaypointListTemplate();
   }

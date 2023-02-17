@@ -1,13 +1,13 @@
 import { createElement } from '../render.js';
 
 
-const createNewWaypointBtnTemplate = () => ` <button class="trip-main__event-add-btn  btn  btn--big  btn--yellow" type="button">New event</button>
+const createNoWaypointTemplate = () => `<p class="trip-events__msg">Click New Event to create your first point</p>
 `;
 
 
-export default class NewWaypointButtonView {
+export default class NoWaypointView {
   getTemplate() {
-    return createNewWaypointBtnTemplate();
+    return createNoWaypointTemplate();
   }
 
   getElement() {

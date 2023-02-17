@@ -34,7 +34,7 @@ const createWaypointTemplate = () => ` <li class="trip-events__item">
 `;
 
 
-export default class FilterView {
+export default class WaypointView {
   getTemplate() {
     return createWaypointTemplate();
   }

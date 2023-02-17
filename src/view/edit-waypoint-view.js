@@ -159,7 +159,7 @@ const createEditWaypointTemplate = () => `
             </li>`;
 
 
-export default class FilterView {
+export default class EditWaypointView {
   getTemplate() {
     return createEditWaypointTemplate();
   }
