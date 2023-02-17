@@ -1,9 +1,4 @@
-# Проект «{{projectTitle}}»
-
-* Студент: [{{userName}}]({{userProfile}}).
-* Наставник: `Неизвестно`.
-
----
+# Проект «Big tip simple»
 
 _Не удаляйте и не изменяйте папки и файлы:_
 _`.editorconfig`, `.gitattributes`._
